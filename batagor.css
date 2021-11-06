@@ -1,0 +1,74 @@
+body {
+    font-family: 'mulish', sans-serif;
+ }
+ #img-area {
+    background-image: url("assets/Batagor.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    filter: sepia();
+ }
+.scroll {
+    width: 606px;
+    height: 608px;
+    border-radius: 10%;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 51%;
+    z-index: 2;
+    overflow-y: scroll;
+    position: fixed;
+}
+#nam {
+    font-size: 130px;
+    text-align:left;
+    position: fixed;
+    z-index: 1;
+    color: rgba(255, 255, 255, 0.493);
+    letter-spacing: 12px;
+    margin-left: 1px;
+    margin-top: 50px;
+}
+h2{
+    text-align: center;
+    border-radius: 30px;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+.scroll::-webkit-scrollbar {
+width: 25px;
+}
+
+.scroll::-webkit-scrollbar-track {
+background-color: rgb(128, 128, 128);
+border-radius: 20px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+background-color: rgba(255, 72, 0, 0.39);
+border-radius: 20px;
+}
+#back {
+ text-align: center;
+ width: 100px;
+ height: 20px;
+ border-radius: 40%;
+ background-color: rgb(255, 255, 255);
+ color: black;
+ padding: 5px;
+ cursor: pointer;
+}
+#back:hover {
+ background-color: transparent;
+ border : 2px solid rgb(0, 0, 0);
+ border-radius: 20%;
+ cursor: pointer;
+ 
+}
