@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("assets/wood1.jpg");
+    background-size: 100%;
+}
+.gambar {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 800px;
+}
+.app {
+    background-image: url("assets/Batagor-Telur.jpeg");
+}
+.mc {
+    background-image: url("assets/food-rendang.jpeg");
+}
+.des {
+    background-image: url("assets/cendol-dawet.jpeg");
+}
+.judul {
+    background-image: url("assets/judul.jpg");
+    background-size: contain;
+    height: 70px;
+    border: 5px solid maroon;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#tc {
+    color: maroon;
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    width: 800px;
+}
+#back {
+    float: left;
+    width: 60px;
+    margin-top: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#nama {
+    position: relative;
+    font-family: 'Staatliches', cursive;
+    float: right;
+    color: maroon;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    padding-top: 5px;
+    margin-right: 10px;
+    text-align: right;
+    width: 500px;
+}
+.isi {
+    height: 200px;
+}
+#subjdl {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 3px;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    bottom: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    background-color: #a17917;
+    background-position: center;
+    border-radius: 30px;
+    font-size: 28px;
+    padding: 10px;
+    width: 320px;
+    cursor: default;
+}
+#resep {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 3px;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    bottom: 2%;
+    right: 1%;
+    color: white;
+    background-color: #a17917;
+    background-position: center;
+    border-radius: 30px;
+    font-size: 28px;
+    padding: 8px;
+    width: 250px;
+}
+#prf {
+    margin: 30px 40px;
+    font-size: 30px;
+    text-align: justify;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    height: 130px;
+    padding: 20px;
+}
+#sample {
+    position: relative;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 100px;
+    letter-spacing: 10px;
+}
+#resep:hover{
+    color: #a17917;
+    border: 2px solid #a17917;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.4s;
+}
+#back:hover {
+    opacity: 0.6;
+}
