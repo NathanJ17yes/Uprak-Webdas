@@ -2,7 +2,7 @@ body {
     font-family: 'mulish', sans-serif;
 }
 #img-area {
-    background-image: url("Assets/cendol-dawet.jpg");
+    background-image: url("assets/cendol-dawet.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
