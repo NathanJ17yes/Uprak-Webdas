@@ -7,7 +7,7 @@
     <title>Cendol</title>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;1,300&display=s
     wap" rel="stylesheet">
-    <link rel="stylesheet" href="Styling cendol.css"/>
+    <link rel="stylesheet" href="cendoldawet.css"/>
 </head>
 <body>
    <a href="utama.php"><div id="back">
