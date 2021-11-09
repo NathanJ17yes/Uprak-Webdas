@@ -16,6 +16,7 @@
         <?php echo "$_POST[nama]" ?>
         </div>
         <a href="form.php"><img src="assets/back0.png" alt="back" id="back"></a>
+        <a href="credit.php"><span id="cred">Credits</span></a>
     </nav>
 
     <section class="gambar app">
