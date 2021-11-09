@@ -64,6 +64,17 @@ body {
     text-align: right;
     width: 500px;
 }
+#cred {
+    float: left;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 15px;
+    color: maroon;
+}
+#cred:hover {
+   border: none;
+   border-bottom: 2px solid maroon; 
+}
 .isi {
     height: 200px;
 }
